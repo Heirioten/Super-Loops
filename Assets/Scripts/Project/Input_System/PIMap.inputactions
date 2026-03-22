@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "PIMap",
+    "maps": [
+        {
+            "name": "PlayerActions",
+            "id": "7f4c6b5c-77e3-4202-a1dd-904c16520773",
+            "actions": [
+                {
+                    "name": "W key",
+                    "type": "Value",
+                    "id": "4a7923de-16f5-4d49-a625-b3ba11d24438",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "D key",
+                    "type": "Value",
+                    "id": "324aeb7f-230d-4afd-adb7-5f1795de1b8c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "02ee1709-9b6a-44c9-bec1-643728b911ee",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "W key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f3aea4d-eeb7-4bec-bcbb-d36ce153f537",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "D key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
